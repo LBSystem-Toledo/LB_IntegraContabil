@@ -1,0 +1,6 @@
+-Abrir prompt de comando como Administrador.
+-Navegar até a pasta onde se encontra o serviço.
+-Para instalar digite "nome do serviço" install
+-Para desinstalar digite "nome do serviço" uninstall
+
+https://www.macoratti.net/18/05/c_servtop1.htm

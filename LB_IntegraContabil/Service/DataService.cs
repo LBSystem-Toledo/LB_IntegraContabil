@@ -29,7 +29,7 @@ namespace LB_IntegraContabil.Service
                 return JsonConvert.DeserializeObject<TokenONVIO>(await response.Content.ReadAsStringAsync());
             else return null;
         }
-        public static async Task<IntegrationKey> GerarKeyIntegracaoAsync(Empresa empresa, string Url, string token)
+        public static async Task<IntegrationKey> GerarKeyIntegracaoAsync(Empresa empresa, string Url)
         {
             HttpClient client = new HttpClient();
             client.BaseAddress = new Uri(Url);
